@@ -1,0 +1,8 @@
+n = int(input("Enter a number: "))
+
+for i in range(1, n + 1):
+    if i % 3 == 0:
+        pass
+        print(f"Used pass for multiple of 3: {i} (N is {n})")
+    else:
+        print(f"for loop number = {i} (up to {n})")
